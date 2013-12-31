@@ -1,0 +1,5 @@
+class AddLastnameToUser < ActiveRecord::Migration
+  def change
+	t.string :lastname
+  end
+end
